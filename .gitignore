@@ -1,0 +1,5 @@
+# Mantiene la carpeta en el repositorio aunque todavía no se haya copiado el build.
+*
+!.gitignore
+!.nojekyll
+!README.md
