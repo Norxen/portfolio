@@ -1,0 +1,227 @@
+<!DOCTYPE html><html><head>
+      <title>portfolio</title>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      
+      <link rel="stylesheet" href="file:///c:\Users\User\.vscode\extensions\shd101wyy.markdown-preview-enhanced-0.8.22\crossnote\dependencies\katex\katex.min.css">
+      
+      
+      
+      
+      
+      <style>
+      code[class*=language-],pre[class*=language-]{color:#333;background:0 0;font-family:Consolas,"Liberation Mono",Menlo,Courier,monospace;text-align:left;white-space:pre;word-spacing:normal;word-break:normal;word-wrap:normal;line-height:1.4;-moz-tab-size:8;-o-tab-size:8;tab-size:8;-webkit-hyphens:none;-moz-hyphens:none;-ms-hyphens:none;hyphens:none}pre[class*=language-]{padding:.8em;overflow:auto;border-radius:3px;background:#f5f5f5}:not(pre)>code[class*=language-]{padding:.1em;border-radius:.3em;white-space:normal;background:#f5f5f5}.token.blockquote,.token.comment{color:#969896}.token.cdata{color:#183691}.token.doctype,.token.macro.property,.token.punctuation,.token.variable{color:#333}.token.builtin,.token.important,.token.keyword,.token.operator,.token.rule{color:#a71d5d}.token.attr-value,.token.regex,.token.string,.token.url{color:#183691}.token.atrule,.token.boolean,.token.code,.token.command,.token.constant,.token.entity,.token.number,.token.property,.token.symbol{color:#0086b3}.token.prolog,.token.selector,.token.tag{color:#63a35c}.token.attr-name,.token.class,.token.class-name,.token.function,.token.id,.token.namespace,.token.pseudo-class,.token.pseudo-element,.token.url-reference .token.variable{color:#795da3}.token.entity{cursor:help}.token.title,.token.title .token.punctuation{font-weight:700;color:#1d3e81}.token.list{color:#ed6a43}.token.inserted{background-color:#eaffea;color:#55a532}.token.deleted{background-color:#ffecec;color:#bd2c00}.token.bold{font-weight:700}.token.italic{font-style:italic}.language-json .token.property{color:#183691}.language-markup .token.tag .token.punctuation{color:#333}.language-css .token.function,code.language-css{color:#0086b3}.language-yaml .token.atrule{color:#63a35c}code.language-yaml{color:#183691}.language-ruby .token.function{color:#333}.language-markdown .token.url{color:#795da3}.language-makefile .token.symbol{color:#795da3}.language-makefile .token.variable{color:#183691}.language-makefile .token.builtin{color:#0086b3}.language-bash .token.keyword{color:#0086b3}pre[data-line]{position:relative;padding:1em 0 1em 3em}pre[data-line] .line-highlight-wrapper{position:absolute;top:0;left:0;background-color:transparent;display:block;width:100%}pre[data-line] .line-highlight{position:absolute;left:0;right:0;padding:inherit 0;margin-top:1em;background:hsla(24,20%,50%,.08);background:linear-gradient(to right,hsla(24,20%,50%,.1) 70%,hsla(24,20%,50%,0));pointer-events:none;line-height:inherit;white-space:pre}pre[data-line] .line-highlight:before,pre[data-line] .line-highlight[data-end]:after{content:attr(data-start);position:absolute;top:.4em;left:.6em;min-width:1em;padding:0 .5em;background-color:hsla(24,20%,50%,.4);color:#f4f1ef;font:bold 65%/1.5 sans-serif;text-align:center;vertical-align:.3em;border-radius:999px;text-shadow:none;box-shadow:0 1px #fff}pre[data-line] .line-highlight[data-end]:after{content:attr(data-end);top:auto;bottom:.4em}html body{font-family:'Helvetica Neue',Helvetica,'Segoe UI',Arial,freesans,sans-serif;font-size:16px;line-height:1.6;color:#333;background-color:#fff;overflow:initial;box-sizing:border-box;word-wrap:break-word}html body>:first-child{margin-top:0}html body h1,html body h2,html body h3,html body h4,html body h5,html body h6{line-height:1.2;margin-top:1em;margin-bottom:16px;color:#000}html body h1{font-size:2.25em;font-weight:300;padding-bottom:.3em}html body h2{font-size:1.75em;font-weight:400;padding-bottom:.3em}html body h3{font-size:1.5em;font-weight:500}html body h4{font-size:1.25em;font-weight:600}html body h5{font-size:1.1em;font-weight:600}html body h6{font-size:1em;font-weight:600}html body h1,html body h2,html body h3,html body h4,html body h5{font-weight:600}html body h5{font-size:1em}html body h6{color:#5c5c5c}html body strong{color:#000}html body del{color:#5c5c5c}html body a:not([href]){color:inherit;text-decoration:none}html body a{color:#08c;text-decoration:none}html body a:hover{color:#00a3f5;text-decoration:none}html body img{max-width:100%}html body>p{margin-top:0;margin-bottom:16px;word-wrap:break-word}html body>ol,html body>ul{margin-bottom:16px}html body ol,html body ul{padding-left:2em}html body ol.no-list,html body ul.no-list{padding:0;list-style-type:none}html body ol ol,html body ol ul,html body ul ol,html body ul ul{margin-top:0;margin-bottom:0}html body li{margin-bottom:0}html body li.task-list-item{list-style:none}html body li>p{margin-top:0;margin-bottom:0}html body .task-list-item-checkbox{margin:0 .2em .25em -1.8em;vertical-align:middle}html body .task-list-item-checkbox:hover{cursor:pointer}html body blockquote{margin:16px 0;font-size:inherit;padding:0 15px;color:#5c5c5c;background-color:#f0f0f0;border-left:4px solid #d6d6d6}html body blockquote>:first-child{margin-top:0}html body blockquote>:last-child{margin-bottom:0}html body hr{height:4px;margin:32px 0;background-color:#d6d6d6;border:0 none}html body table{margin:10px 0 15px 0;border-collapse:collapse;border-spacing:0;display:block;width:100%;overflow:auto;word-break:normal;word-break:keep-all}html body table th{font-weight:700;color:#000}html body table td,html body table th{border:1px solid #d6d6d6;padding:6px 13px}html body dl{padding:0}html body dl dt{padding:0;margin-top:16px;font-size:1em;font-style:italic;font-weight:700}html body dl dd{padding:0 16px;margin-bottom:16px}html body code{font-family:Menlo,Monaco,Consolas,'Courier New',monospace;font-size:.85em;color:#000;background-color:#f0f0f0;border-radius:3px;padding:.2em 0}html body code::after,html body code::before{letter-spacing:-.2em;content:'\00a0'}html body pre>code{padding:0;margin:0;word-break:normal;white-space:pre;background:0 0;border:0}html body .highlight{margin-bottom:16px}html body .highlight pre,html body pre{padding:1em;overflow:auto;line-height:1.45;border:#d6d6d6;border-radius:3px}html body .highlight pre{margin-bottom:0;word-break:normal}html body pre code,html body pre tt{display:inline;max-width:initial;padding:0;margin:0;overflow:initial;line-height:inherit;word-wrap:normal;background-color:transparent;border:0}html body pre code:after,html body pre code:before,html body pre tt:after,html body pre tt:before{content:normal}html body blockquote,html body dl,html body ol,html body p,html body pre,html body ul{margin-top:0;margin-bottom:16px}html body kbd{color:#000;border:1px solid #d6d6d6;border-bottom:2px solid #c7c7c7;padding:2px 4px;background-color:#f0f0f0;border-radius:3px}@media print{html body{background-color:#fff}html body h1,html body h2,html body h3,html body h4,html body h5,html body h6{color:#000;page-break-after:avoid}html body blockquote{color:#5c5c5c}html body pre{page-break-inside:avoid}html body table{display:table}html body img{display:block;max-width:100%;max-height:100%}html body code,html body pre{word-wrap:break-word;white-space:pre}}.markdown-preview{width:100%;height:100%;box-sizing:border-box}.markdown-preview ul{list-style:disc}.markdown-preview ul ul{list-style:circle}.markdown-preview ul ul ul{list-style:square}.markdown-preview ol{list-style:decimal}.markdown-preview ol ol,.markdown-preview ul ol{list-style-type:lower-roman}.markdown-preview ol ol ol,.markdown-preview ol ul ol,.markdown-preview ul ol ol,.markdown-preview ul ul ol{list-style-type:lower-alpha}.markdown-preview .newpage,.markdown-preview .pagebreak{page-break-before:always}.markdown-preview pre.line-numbers{position:relative;padding-left:3.8em;counter-reset:linenumber}.markdown-preview pre.line-numbers>code{position:relative}.markdown-preview pre.line-numbers .line-numbers-rows{position:absolute;pointer-events:none;top:1em;font-size:100%;left:0;width:3em;letter-spacing:-1px;border-right:1px solid #999;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none}.markdown-preview pre.line-numbers .line-numbers-rows>span{pointer-events:none;display:block;counter-increment:linenumber}.markdown-preview pre.line-numbers .line-numbers-rows>span:before{content:counter(linenumber);color:#999;display:block;padding-right:.8em;text-align:right}.markdown-preview .mathjax-exps .MathJax_Display{text-align:center!important}.markdown-preview:not([data-for=preview]) .code-chunk .code-chunk-btn-group{display:none}.markdown-preview:not([data-for=preview]) .code-chunk .status{display:none}.markdown-preview:not([data-for=preview]) .code-chunk .output-div{margin-bottom:16px}.markdown-preview .md-toc{padding:0}.markdown-preview .md-toc .md-toc-link-wrapper .md-toc-link{display:inline;padding:.25rem 0}.markdown-preview .md-toc .md-toc-link-wrapper .md-toc-link div,.markdown-preview .md-toc .md-toc-link-wrapper .md-toc-link p{display:inline}.markdown-preview .md-toc .md-toc-link-wrapper.highlighted .md-toc-link{font-weight:800}.scrollbar-style::-webkit-scrollbar{width:8px}.scrollbar-style::-webkit-scrollbar-track{border-radius:10px;background-color:transparent}.scrollbar-style::-webkit-scrollbar-thumb{border-radius:5px;background-color:rgba(150,150,150,.66);border:4px solid rgba(150,150,150,.66);background-clip:content-box}html body[for=html-export]:not([data-presentation-mode]){position:relative;width:100%;height:100%;top:0;left:0;margin:0;padding:0;overflow:auto}html body[for=html-export]:not([data-presentation-mode]) .markdown-preview{position:relative;top:0;min-height:100vh}@media screen and (min-width:914px){html body[for=html-export]:not([data-presentation-mode]) .markdown-preview{padding:2em calc(50% - 457px + 2em)}}@media screen and (max-width:914px){html body[for=html-export]:not([data-presentation-mode]) .markdown-preview{padding:2em}}@media screen and (max-width:450px){html body[for=html-export]:not([data-presentation-mode]) .markdown-preview{font-size:14px!important;padding:1em}}@media print{html body[for=html-export]:not([data-presentation-mode]) #sidebar-toc-btn{display:none}}html body[for=html-export]:not([data-presentation-mode]) #sidebar-toc-btn{position:fixed;bottom:8px;left:8px;font-size:28px;cursor:pointer;color:inherit;z-index:99;width:32px;text-align:center;opacity:.4}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] #sidebar-toc-btn{opacity:1}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc{position:fixed;top:0;left:0;width:300px;height:100%;padding:32px 0 48px 0;font-size:14px;box-shadow:0 0 4px rgba(150,150,150,.33);box-sizing:border-box;overflow:auto;background-color:inherit}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc::-webkit-scrollbar{width:8px}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc::-webkit-scrollbar-track{border-radius:10px;background-color:transparent}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc::-webkit-scrollbar-thumb{border-radius:5px;background-color:rgba(150,150,150,.66);border:4px solid rgba(150,150,150,.66);background-clip:content-box}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc a{text-decoration:none}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc .md-toc{padding:0 16px}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc .md-toc .md-toc-link-wrapper .md-toc-link{display:inline;padding:.25rem 0}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc .md-toc .md-toc-link-wrapper .md-toc-link div,html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc .md-toc .md-toc-link-wrapper .md-toc-link p{display:inline}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc .md-toc .md-toc-link-wrapper.highlighted .md-toc-link{font-weight:800}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .markdown-preview{left:300px;width:calc(100% - 300px);padding:2em calc(50% - 457px - 300px / 2);margin:0;box-sizing:border-box}@media screen and (max-width:1274px){html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .markdown-preview{padding:2em}}@media screen and (max-width:450px){html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .markdown-preview{width:100%}}html body[for=html-export]:not([data-presentation-mode]):not([html-show-sidebar-toc]) .markdown-preview{left:50%;transform:translateX(-50%)}html body[for=html-export]:not([data-presentation-mode]):not([html-show-sidebar-toc]) .md-sidebar-toc{display:none}
+/* Please visit the URL below for more information: */
+/*   https://shd101wyy.github.io/markdown-preview-enhanced/#/customize-css */
+
+      </style>
+      <script type="text/javascript">
+  document.addEventListener("DOMContentLoaded", function () {
+    // your code here
+  });
+</script>
+    </head>
+    <body for="html-export">
+      <div></div>
+      <div class="crossnote markdown-preview  ">
+      <div>
+<h1 id="portfolio-profesional-en-angular">Portfolio profesional en Angular </h1>
+<h2 id="visión-del-proyecto">Visión del proyecto </h2>
+<p>Este ejercicio plantea el desarrollo de un portfolio personal con Angular desde una perspectiva profesional. No se trata únicamente de publicar una web atractiva, sino de construir una aplicación que refleje criterio técnico, orden arquitectónico y una forma de trabajar madura. El resultado debe transmitir no solo qué proyectos has hecho, sino también cómo piensas, cómo organizas una interfaz y cómo conviertes una idea en un producto frontend sólido.</p>
+<p>La intención es que el portfolio funcione como una carta de presentación real. Quien entre en la aplicación debería entender con rapidez quién eres, a qué te dedicas, qué tipo de proyectos desarrollas y por qué merece la pena dedicar tiempo a explorar tu trabajo. A partir de ahí, la navegación debe acompañar al usuario con naturalidad hacia tus proyectos, tu perfil técnico y, por último, una vía de contacto clara.</p>
+<h2 id="objetivo-principal">Objetivo principal </h2>
+<p>El objetivo es desarrollar una aplicación moderna, mantenible y escalable que sirva como portfolio profesional y, al mismo tiempo, como demostración de dominio de Angular actual. La aplicación debe estar bien estructurada, apoyarse en componentes reutilizables y ofrecer una experiencia fluida tanto en escritorio como en móvil.</p>
+<p>Más que acumular funcionalidades, lo importante es resolver bien lo esencial. Por eso, el proyecto debe abordarse con una lógica de producto real: primero se define un alcance razonable, después se construye una base técnica fiable y, solo cuando esa base está firme, se añaden mejoras o extras.</p>
+<h2 id="principios-del-proyecto">Principios del proyecto </h2>
+<p>Para que el portfolio tenga coherencia, conviene trabajar con unos pocos principios claros desde el inicio. El primero es la claridad: tanto la interfaz como la arquitectura deben ayudar a entender el proyecto con rapidez. El segundo es la mantenibilidad: cada decisión técnica debería facilitar la evolución del código en lugar de complicarla. El tercero es la reutilización: si un patrón visual o de comportamiento aparece varias veces, debe convertirse en una pieza reusable y no repetirse de forma improvisada. El cuarto es la intención: cada componente, cada animación y cada decisión visual deberían responder a una necesidad concreta, no a la voluntad de añadir complejidad por aparentar más nivel.</p>
+<p>Estos principios son importantes porque permiten tomar decisiones con criterio cuando aparecen dudas. Si en algún momento una solución parece vistosa pero dificulta la legibilidad, o una mejora técnica añade complejidad sin aportar valor real, lo más razonable será descartarla.</p>
+<h2 id="orden-de-preparación-del-proyecto">Orden de preparación del proyecto </h2>
+<p>Este documento está organizado siguiendo el orden más lógico de trabajo. Primero se define el contenido y el alcance real del portfolio. Después se prepara la arquitectura y la librería de diseño. A continuación se construyen las pantallas principales y su lógica. Solo cuando el núcleo está resuelto tiene sentido entrar en pruebas, internacionalización, optimización, despliegue y extras.</p>
+<p>Dicho de otro modo, el orden correcto no es empezar por embellecer la home ni dejar cuestiones importantes para el final. Lo adecuado es preparar primero aquello que condiciona todo lo demás y dejar para el cierre únicamente lo que de verdad depende de tener la aplicación ya montada.</p>
+<h2 id="fase-1-definición-y-preparación-del-contenido">Fase 1. Definición y preparación del contenido </h2>
+<p>Antes de empezar a implementar, merece la pena dejar resuelto un mínimo de contenido real. En un portfolio, el contenido no se añade al final como relleno, sino que condiciona la estructura, las decisiones de interfaz y el tipo de componentes que tendrá sentido construir. Por eso, es recomendable preparar con antelación una presentación breve para la home, una descripción más desarrollada para la sección “Sobre mí”, una lista de tecnologías o fortalezas que quieras destacar y, sobre todo, la información base de cada proyecto.</p>
+<p>Cada proyecto debería contar, al menos, con un título, una descripción corta, una explicación más completa, un listado de tecnologías, un identificador para la ruta dinámica y, si existen, enlaces a repositorio, demo o imágenes. Cuanto más cerrado esté ese material al principio, menos improvisado será el resultado final.</p>
+<h3 id="alcance-del-mvp">Alcance del MVP </h3>
+<p>La primera versión funcional debe cubrir cinco áreas principales. La página de inicio tendrá que actuar como una presentación breve pero eficaz: debe introducir tu perfil, explicar de forma sintética qué haces y ofrecer una llamada a la acción clara para visitar tus proyectos o contactar contigo. Es una sección especialmente importante, porque marca el tono del resto de la experiencia y debe dar sensación de cuidado visual sin caer en artificios innecesarios.</p>
+<p>La sección de proyectos será el núcleo del portfolio. Ahí es donde realmente se pone en valor el trabajo realizado, así que debe estar planteada con más intención que una simple cuadrícula de tarjetas. Lo razonable es mostrar un listado dinámico, permitir filtrar por tecnologías y ofrecer un buscador que facilite localizar proyectos concretos. Cada tarjeta debería resumir bien el proyecto y servir de puerta de entrada a una vista más detallada.</p>
+<p>Cada proyecto contará con su propia página de detalle, accesible mediante una ruta dinámica como <code>/projects/:id</code>. En esa vista no basta con repetir el resumen de la tarjeta: debe explicarse el contexto del proyecto, el problema que resuelve, las tecnologías utilizadas y, cuando tenga sentido, incluir imágenes, capturas o enlaces a GitHub y a una demo.</p>
+<p>La sección “Sobre mí” debe aportar contexto profesional. No hace falta convertirla en una autobiografía, pero sí conviene que explique tu recorrido, tus fortalezas y tu forma de trabajar. Puede apoyarse en una línea temporal, una presentación de skills o una combinación de ambas, siempre que el resultado sea claro y no parezca una acumulación de bloques desconectados.</p>
+<p>Por último, la sección de contacto debe cerrar el recorrido de forma limpia. El formulario tiene que ser sencillo, comprensible y estar bien validado, con mensajes de error y de éxito que ayuden al usuario en lugar de entorpecerlo.</p>
+<h2 id="fase-2-arquitectura-base">Fase 2. Arquitectura base </h2>
+<p>La estructura del proyecto debería distinguir con claridad entre la lógica transversal, las piezas reutilizables y las funcionalidades de negocio. Una base razonable sería la siguiente:</p>
+<pre data-role="codeBlock" data-info="text" class="language-text text"><code>src/app/
+  core/
+  shared/
+  features/
+    home/
+    projects/
+    project-detail/
+    about/
+    contact/
+
+libs/
+  ui/
+</code></pre><p>Dentro de <code>core</code> deberían vivir los servicios globales, la configuración y aquellas utilidades que afectan a toda la aplicación. <code>shared</code> puede reservarse para piezas reutilizables que no pertenezcan a una funcionalidad concreta, como directivas, pipes o pequeños componentes de apoyo. La carpeta <code>features</code>, en cambio, debe organizar las pantallas principales y la lógica específica de cada sección. La carpeta <code>libs/ui</code> tendrá un papel especial, porque servirá para aislar el sistema visual y los componentes de interfaz reutilizables.</p>
+<p>En esta fase también conviene dejar definidas las rutas principales de la aplicación. Aunque las pantallas todavía no estén terminadas, es buena idea dejar preparadas las rutas base de la home, proyectos, detalle, sobre mí, contacto y 404. Eso evita improvisar la navegación cuando el proyecto ya ha empezado a crecer.</p>
+<h2 id="fase-3-sistema-visual-y-librería-de-diseño">Fase 3. Sistema visual y librería de diseño </h2>
+<p>La librería de diseño debe implementarse principalmente con Atomic Design, Angular y SCSS. Esa combinación permite que la construcción visual tenga una lógica clara: Angular se encarga de la composición y de la API de los componentes, SCSS da soporte al sistema de estilos, temas y tokens, y Atomic Design aporta una forma coherente de organizar las piezas sin mezclar niveles de complejidad.</p>
+<p>No se trata de aplicar Atomic Design de forma rígida o académica, sino de utilizarlo con sentido. Lo importante es que los componentes más pequeños se definan como base reutilizable, que las combinaciones intermedias formen patrones reconocibles y que los bloques más complejos se compongan a partir de esas piezas.</p>
+<p>Una organización razonable para <code>libs/ui</code> podría ser esta:</p>
+<pre data-role="codeBlock" data-info="text" class="language-text text"><code>libs/ui/
+  atoms/
+    button/
+    input/
+    badge/
+  molecules/
+    form-field/
+    project-card/
+    theme-toggle/
+  organisms/
+    header/
+    project-grid/
+    contact-form/
+  styles/
+    _variables.scss
+    _mixins.scss
+    _themes.scss
+  tokens/
+    colors.ts
+    spacing.ts
+    typography.ts
+</code></pre><p>En esta fase el trabajo debería empezar por los tokens y la base SCSS: colores, tipografías, espaciados, mixins, temas y comportamiento responsive. Después tiene sentido construir los átomos fundamentales, como botón, input o badge. A partir de ahí se pueden crear moléculas y organismos que luego usarán las páginas principales.</p>
+<p>Además, la librería debería contar al menos con un sistema de tema claro y oscuro. Ese cambio de tema puede controlarse mediante signals desde Angular, mientras que SCSS se encarga de centralizar variables, mixins y reglas visuales.</p>
+<h2 id="fase-4-implementación-técnica-del-núcleo">Fase 4. Implementación técnica del núcleo </h2>
+<p>La aplicación debe construirse con Angular moderno y aprovechar las herramientas que hoy forman parte de su enfoque principal. Eso implica trabajar con componentes standalone, apoyarse en signals para el estado de interfaz, utilizar el nuevo control flow con <code>@if</code> y <code>@for</code> cuando proceda y estructurar la navegación con Angular Router, incluyendo lazy loading en las secciones principales. RxJS puede aparecer, pero solo cuando aporte algo real.</p>
+<p>El objetivo en esta fase no es cerrar todavía todos los detalles visuales, sino construir una base funcional limpia. La home debe dejar claro quién eres y qué puede hacer el usuario a continuación. La sección de proyectos debe mostrar el listado y permitir navegar a cada detalle. El detalle de proyecto debe cargar correctamente mediante una ruta dinámica. “Sobre mí” debe presentar tu perfil con claridad. Y la parte de contacto debe quedar montada con Reactive Forms y sus validaciones principales.</p>
+<h3 id="uso-de-angular-en-cada-sección">Uso de Angular en cada sección </h3>
+<p>La página de inicio es un buen lugar para aplicar signals como base del estado visual y añadir animaciones de entrada que refuercen la presentación sin distraer. También puede aprovechar <code>@if</code> para mostrar o no ciertos bloques según el estado de la interfaz. La sección de proyectos, por su parte, encaja bien con <code>@for</code>, el uso de <code>track</code> y señales derivadas para filtros y búsqueda.</p>
+<p>En el detalle de proyecto será necesario trabajar con rutas dinámicas y con <code>ActivatedRoute</code>, además de aprovechar lazy loading para que cada sección cargue cuando realmente se necesita. En “Sobre mí” tendrá sentido apoyarse en componentes reutilizables y, si la composición lo requiere, usar <code>@Input()</code> y <code>@Output()</code> con moderación y criterio. La parte de contacto debe construirse con Reactive Forms, validaciones personalizadas cuando sean necesarias y una respuesta visual clara ante errores o envíos correctos.</p>
+<h2 id="fase-5-experiencia-de-usuario-y-comportamiento">Fase 5. Experiencia de usuario y comportamiento </h2>
+<p>Cuando la estructura principal ya existe, toca trabajar la experiencia. La navegación debe ser sencilla, predecible y estar organizada por secciones cargadas de forma diferida. Además de las rutas principales, conviene incluir una página 404 personalizada para cerrar correctamente la experiencia y evitar que la aplicación parezca inacabada.</p>
+<p>En esta fase también deben entrar las animaciones, los estados de interacción y la revisión responsive. Las animaciones deben acompañar, no distraer. El diseño tiene que mantenerse claro tanto en escritorio como en móvil, y la navegación debe seguir siendo comprensible en cualquier tamaño de pantalla.</p>
+<h2 id="fase-6-internacionalización">Fase 6. Internacionalización </h2>
+<p>Si el portfolio quiere proyectar una imagen más completa y profesional, tiene sentido contemplar la internacionalización como una capacidad real del producto y no como un añadido superficial. En este caso, el objetivo no debería limitarse a traducir unos cuantos textos, sino a permitir que la aplicación se presente en el idioma más adecuado para quien la visita.</p>
+<p>Ahora bien, conviene plantearlo con precisión técnica. En un despliegue estático como GitHub Pages no suele existir una detección fiable del país de origen a nivel de servidor. Por eso, lo razonable es que la carga inicial del idioma dependa principalmente de la configuración regional del navegador o del idioma preferido por la persona usuaria. Si en el futuro el proyecto se desplegara sobre una infraestructura con soporte de cabeceras, edge middleware o geolocalización, entonces sí podría ampliarse la lógica para responder por país o mercado.</p>
+<p>Para este ejercicio, la solución más sólida consiste en definir al menos dos idiomas, establecer uno por defecto y resolver la selección inicial a partir del locale del navegador. A partir de ahí, el portfolio debería permitir cambiar manualmente de idioma y recordar esa preferencia para visitas posteriores.</p>
+<h2 id="fase-7-rendimiento-mantenibilidad-y-testing">Fase 7. Rendimiento, mantenibilidad y testing </h2>
+<p>En cuanto al rendimiento, es importante que desde el inicio se adopten medidas básicas de eficiencia, pero la revisión consciente suele llegar cuando la aplicación ya está montada. El uso de <code>ChangeDetectionStrategy.OnPush</code>, la optimización de listas con <code>trackBy</code> o <code>track</code> y la reducción de renders innecesarios deberían formar parte de la implementación habitual y no aparecer solo al final como parche.</p>
+<p>La mantenibilidad dependerá de que los componentes sean pequeños, tengan responsabilidades claras y eviten duplicar lógica o estilos. En este punto también conviene revisar nombres, orden de carpetas y consistencia en los estilos.</p>
+<p>El testing puede mantenerse en un nivel básico, pero debe existir. Basta con cubrir al menos un componente y un servicio, siempre que esas pruebas validen comportamiento relevante y no se queden en simples comprobaciones superficiales.</p>
+<h2 id="fase-8-publicación-en-github-pages">Fase 8. Publicación en GitHub Pages </h2>
+<p>Como se trata de un portfolio, la publicación no debería considerarse un detalle secundario, sino parte del propio ejercicio. Una aplicación de este tipo solo queda verdaderamente cerrada cuando puede consultarse en una URL pública y funciona de forma razonable fuera del entorno local.</p>
+<p>Antes de publicar, la aplicación debe estar preparada para producción. Eso implica generar una build estable, revisar que los assets cargan bien y confirmar que la configuración del proyecto es compatible con el entorno de despliegue. Si el portfolio se publica en un repositorio de proyecto y no en un repositorio de usuario, será necesario revisar el <code>base href</code> para que los recursos estáticos y las rutas funcionen correctamente desde la subruta correspondiente.</p>
+<p>También conviene comprobar cómo se comporta la aplicación al recargar una ruta interna, especialmente en páginas como el detalle de proyecto. La publicación en GitHub Pages debería incluir una revisión final en entorno real: comprobar que la URL pública carga correctamente, que los enlaces funcionan, que el detalle dinámico no rompe la navegación y que la experiencia general sigue siendo sólida una vez desplegada.</p>
+<h2 id="errores-comunes-que-conviene-evitar">Errores comunes que conviene evitar </h2>
+<p>Uno de los errores más frecuentes en este tipo de ejercicios es empezar por el diseño de la home sin haber definido antes ni el contenido ni la arquitectura. Eso suele generar una interfaz vistosa al principio, pero difícil de sostener cuando el resto del proyecto empieza a crecer. También es habitual construir demasiados componentes demasiado pronto, sin saber todavía si realmente van a reutilizarse.</p>
+<p>Otro error común es sobreactuar la parte técnica. Añadir complejidad solo para demostrar conocimiento suele producir el efecto contrario: en lugar de transmitir dominio, transmite falta de criterio. Esto puede ocurrir al introducir RxJS donde no hace falta o al usar patrones demasiado sofisticados para un portfolio pequeño.</p>
+<p>En la parte visual, conviene evitar tanto la rigidez como el exceso. Un portfolio demasiado plano da sensación de poca intención, pero uno cargado de efectos, animaciones o bloques innecesarios pierde claridad y resulta menos profesional.</p>
+<h2 id="criterios-de-evaluación">Criterios de evaluación </h2>
+<p>Si este documento se utiliza como guía de trabajo o incluso como referencia de entrega, conviene dejar claro cómo debería evaluarse el resultado. El proyecto tendrá valor si demuestra una arquitectura comprensible, una interfaz consistente, un uso sensato de Angular moderno y una experiencia de usuario bien resuelta. No se trata de medir solo cuántas funcionalidades incluye, sino cómo están planteadas.</p>
+<p>También debería valorarse la calidad de las decisiones. Un portfolio técnicamente sobrio pero bien organizado tiene más fuerza que uno lleno de extras mal integrados. Del mismo modo, una pequeña librería UI coherente y útil aporta más que una estructura enorme de Atomic Design si luego no está bien aplicada.</p>
+<h2 id="checklist-de-objetivos-y-criterios-de-aceptación">Checklist de objetivos y criterios de aceptación </h2>
+<p>La siguiente checklist traduce el ejercicio a objetivos verificables. No todos tienen el mismo peso, pero en conjunto sirven para comprobar si el portfolio responde de verdad a lo que se pide y si el resultado final puede considerarse profesional.</p>
+<h3 id="1-definición-y-contenido">1. Definición y contenido </h3>
+<ul>
+<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox"> Existe una propuesta de valor clara.</li>
+<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox"> Existe un contenido real para la home.</li>
+<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox"> Existe contenido real para la sección “Sobre mí”.</li>
+<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox"> Existe una lista de proyectos definida antes de diseñar la UI final.</li>
+<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox"> Cada proyecto tiene <code>id</code>, título, resumen, descripción extensa, tecnologías y enlaces relevantes.</li>
+<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox"> El contenido mantiene un tono coherente en toda la aplicación.</li>
+</ul>
+<h3 id="2-alcance-funcional-del-mvp">2. Alcance funcional del MVP </h3>
+<ul>
+<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox"> Existe una home funcional.</li>
+<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox"> Existe una sección de proyectos funcional.</li>
+<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox"> Existe un detalle de proyecto mediante ruta dinámica.</li>
+<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox"> Existe una sección “Sobre mí”.</li>
+<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox"> Existe una sección de contacto con formulario funcional.</li>
+</ul>
+<h3 id="3-arquitectura">3. Arquitectura </h3>
+<ul>
+<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox"> El proyecto está separado en <code>core</code>, <code>shared</code>, <code>features</code> y <code>libs/ui</code>.</li>
+<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox"> Cada capa tiene una responsabilidad clara.</li>
+<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox"> La estructura de carpetas es consistente.</li>
+<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox"> Las rutas principales están definidas desde una fase temprana.</li>
+<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox"> <code>libs/ui</code> está desacoplada de la lógica de negocio.</li>
+</ul>
+<h3 id="4-angular-moderno">4. Angular moderno </h3>
+<ul>
+<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox"> La aplicación usa standalone components.</li>
+<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox"> Se utilizan <code>signals</code> cuando tiene sentido.</li>
+<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox"> Se usan <code>@if</code> y <code>@for</code> donde corresponde.</li>
+<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox"> Las listas están optimizadas con <code>track</code> o equivalente.</li>
+<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox"> Angular Router está bien configurado.</li>
+<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox"> Existe lazy loading en las secciones principales.</li>
+<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox"> <code>ActivatedRoute</code> se utiliza correctamente en el detalle de proyecto.</li>
+<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox"> RxJS solo aparece cuando está justificado.</li>
+</ul>
+<h3 id="5-librería-de-diseño">5. Librería de diseño </h3>
+<ul>
+<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox"> La librería está construida con Angular y SCSS.</li>
+<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox"> La organización responde a Atomic Design.</li>
+<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox"> Existen átomos, moléculas y organismos cuando aportan valor.</li>
+<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox"> La librería tiene una API clara de componentes.</li>
+<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox"> Los componentes son reutilizables.</li>
+<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox"> Existe un sistema de tema claro y oscuro.</li>
+<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox"> Los tokens y estilos base están definidos antes de cerrar las pantallas.</li>
+</ul>
+<h3 id="6-experiencia-y-diseño">6. Experiencia y diseño </h3>
+<ul>
+<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox"> La home comunica con claridad quién eres y qué haces.</li>
+<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox"> La sección de proyectos permite explorar el trabajo con facilidad.</li>
+<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox"> Existen filtros y buscador funcionales.</li>
+<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox"> El detalle de proyecto amplía realmente la información.</li>
+<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox"> La sección “Sobre mí” aporta contexto profesional.</li>
+<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox"> El formulario de contacto está bien validado.</li>
+<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox"> El diseño es responsive.</li>
+<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox"> Las animaciones aportan valor sin recargar.</li>
+<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox"> Existe una página 404 coherente con el resto de la aplicación.</li>
+</ul>
+<h3 id="7-internacionalización">7. Internacionalización </h3>
+<ul>
+<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox"> Existe un idioma por defecto.</li>
+<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox"> La selección inicial del idioma usa el locale del navegador o una lógica equivalente realista.</li>
+<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox"> La aplicación permite cambiar manualmente de idioma.</li>
+<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox"> La preferencia de idioma puede persistirse.</li>
+<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox"> Los textos principales están internacionalizados.</li>
+<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox"> El diseño soporta variaciones de longitud entre idiomas.</li>
+</ul>
+<h3 id="8-rendimiento-y-calidad-técnica">8. Rendimiento y calidad técnica </h3>
+<ul>
+<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox"> Se utiliza <code>OnPush</code> donde tiene sentido.</li>
+<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox"> Se evitan renders innecesarios.</li>
+<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox"> No hay duplicación evidente de lógica.</li>
+<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox"> Los componentes tienen responsabilidades claras.</li>
+<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox"> El código mantiene una estructura legible y mantenible.</li>
+</ul>
+<h3 id="9-testing">9. Testing </h3>
+<ul>
+<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox"> Existe al menos una prueba de componente.</li>
+<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox"> Existe al menos una prueba de servicio.</li>
+<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox"> Las pruebas cubren comportamiento relevante.</li>
+</ul>
+<h3 id="10-publicación">10. Publicación </h3>
+<ul>
+<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox"> Existe una build de producción funcional.</li>
+<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox"> El proyecto puede desplegarse en GitHub Pages.</li>
+<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox"> El <code>base href</code> se ha revisado si hay subruta.</li>
+<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox"> La navegación funciona en la URL publicada.</li>
+<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox"> Los assets cargan correctamente en producción.</li>
+<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox"> El portfolio puede compartirse públicamente sin errores evidentes.</li>
+</ul>
+<h2 id="criterio-de-éxito">Criterio de éxito </h2>
+<p>El ejercicio estará realmente bien planteado si el resultado final transmite dos ideas con claridad. La primera, que dominas Angular moderno y sabes utilizar sus herramientas con criterio. La segunda, que eres capaz de estructurar una aplicación frontend como un producto real, con una base técnica coherente, una interfaz consistente y una experiencia de usuario cuidada.</p>
+<p>En definitiva, el portfolio no debería limitarse a enseñar proyectos. Debería dejar ver cómo entiendes el desarrollo frontend y qué nivel de madurez aplicas al construir software.</p>
+</div>
+      </div>
+      
+      
+    
+    
+    
+    
+    
+    
+  
+    </body></html>
